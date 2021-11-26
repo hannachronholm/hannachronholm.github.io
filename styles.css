@@ -1,0 +1,354 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sofia-pro, arial, sans-serif;
+  margin: 0;
+  background-color: #edf0e7;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+.h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0.25rem 0;
+}
+
+#desktop-menu {
+  background-color: transparent;
+  position: fixed;
+  top: -54px;
+  width: 100%;
+  display: block;
+  transition: top 0.8s;
+  z-index: 100;
+}
+
+#desktop-menu a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#desktop-menu a:hover {
+  background-color: rgba(201, 201, 201, 0.192);
+  color: #b7c39f;
+}
+
+.fullscreen {
+  background-image: url("img/Skärmavbild\ 2021-11-04\ kl.\ 14.47.03\ \(kopia\).png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  background-color: #fff;
+  padding: 0 1.5rem;
+  margin: 2rem 2rem 18rem;
+  text-align: center;
+}
+
+.under {
+  max-width: 42rem;
+  margin: auto;
+  padding: 7rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px 30px;
+  margin: 2rem 5rem;
+}
+
+.bild1 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  max-width: 400px;
+  max-height: 500px;
+  text-align: center;
+}
+
+.overlay:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.bild2 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+.bild2:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.bild3 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+.bild3:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.bild4 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+.bild4:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.bild5 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+.bild5:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.bild6 {
+  display: flex;
+  position: relative;
+  background-color: none;
+  flex-direction: column;
+  padding: 0;
+  border-radius: 0;
+  transition: ease-in-out 300ms;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+}
+
+.bild6:hover {
+  background-color: #edf0e7;
+  opacity: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 500px;
+  width: 400px;
+  opacity: 0;
+  transition: 0.3 ease;
+  background-color: #edf0e7;
+}
+
+/* OM MIG SIDAN */
+
+.ommig-desktop-menu {
+  width: 100%;
+  grid-row: 1;
+  grid-column: 2/4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  height: 70px;
+}
+
+.ommig-desktop-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.ommig-desktop-menu a:hover {
+  color: white;
+  background-color: #b7c39f;
+}
+
+.menu_links {
+  width: 300pxpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 200px;
+  height: 30px;
+  padding-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.om-mig {
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  grid-column: 2/ 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.kontakta-mig {
+  width: 30vw;
+  grid-column: 3/4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row: 2;
+  grid-row-start: 2;
+  grid-row-end: auto;
+}
+
+.rubrik {
+  font-size: 32px;
+  line-height: 119.2%;
+}
+
+.bildhanna {
+  width: 340px;
+  height: 340px;
+  flex: auto;
+}
+
+.lista {
+  list-style: none;
+  padding-left: 0;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 4px;
+}
+
+.button {
+  border: solid;
+  border-color: #b7c39f;
+  border-width: 2px;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 32px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #b7c39f;
+  color: black;
+}
+
+.utbildning {
+  display: grid;
+  grid-template-columns: 170px 1fr 190px 1fr;
+}
+
+.skola {
+  position: relative;
+}
+
+/* .info {
+  max-width: 380px;
+  padding-top: 100px;
+  margin-left: 200px;
+} */
+
+.sida_ommig {
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr 64px;
+  margin-top: 30px;
+  column-gap: 110px;
+  row-gap: 40px;
+}
+
+/* .ommig {
+  max-width: 380px;
+  padding-top: 100px;
+  margin-left: 200px;
+} */
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 0px;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
+}
+
+.mail:hover {
+  color: black;
+  text-decoration: underline;
+}
