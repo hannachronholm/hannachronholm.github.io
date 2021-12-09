@@ -1,7 +1,3 @@
-/* html {
-  font-size: 16px;
-} */
-
 body {
   font-family: sofia-pro, arial, sans-serif;
   margin: 0;
@@ -21,182 +17,9 @@ h2 {
   margin: 0.25rem 0;
 }
 
-/* #desktop-menu {
-  background-color: transparent;
-  position: fixed;
-  top: -54px;
-  width: 100%;
-  transition: top 0.8s;
-  z-index: 100;
-  max-width: 1290px;
-  margin-left: 80px;
+h3 {
+  margin-bottom: 6px;
 }
-
-#desktop-menu a {
-  color: black;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-#desktop-menu a:hover {
-  color: white;
-  background-color: #b7c39f;
-}
-
-.fullscreen {
-  background-image: url("img/Skärmavbild\ 2021-11-04\ kl.\ 14.47.03\ \(kopia\).png");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.box {
-  background-color: #fff;
-  padding: 0 1.5rem;
-  margin: 2rem 2rem 18rem;
-  text-align: center;
-}
-
-.under {
-  max-width: 42rem;
-  margin: auto;
-  padding: 7rem 1rem 2rem 1rem;
-  text-align: center;
-} */
-
-/* .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px 30px;
-  margin: 2rem 5rem;
-}
-
-.bild1 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.overlay:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.bild2 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.bild2:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.bild3 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.bild3:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.bild4 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.bild4:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.bild5 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.bild5:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.bild6 {
-  display: flex;
-  position: relative;
-  background-color: none;
-  flex-direction: column;
-  padding: 0;
-  border-radius: 0;
-  transition: ease-in-out 300ms;
-  max-width: 400px;
-  max-height: 500px;
-  text-align: center;
-}
-
-.bild6:hover {
-  background-color: #edf0e7;
-  opacity: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  max-height: 500px;
-  max-width: 400px;
-  opacity: 0;
-  transition: 0.3 ease;
-  background-color: #edf0e7;
-} */
 
 /* OM MIG SIDAN */
 
@@ -221,37 +44,16 @@ h2 {
   background-color: #b7c39f;
 }
 
-.menu_links {
-  width: 305px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-}
-
 .menu__links {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
 }
 
-@media (max-width: 800px) {
-  .menu__links {
-    display: none;
-  }
-
-  .menu_links {
-    display: none;
-  }
-}
 .mobil_menu {
   width: 32px;
   height: 32px;
   padding-top: 15px;
-}
-@media (min-width: 800px) {
-  .mobil_menu {
-    display: none;
-  }
 }
 
 .logo {
@@ -283,62 +85,6 @@ h2 {
   grid-row: 2;
   grid-row-start: 2;
   grid-row-end: auto; */
-}
-
-.hogerinfo {
-  width: 30vw;
-}
-.safetrip-bilder {
-  display: flex;
-  flex-direction: column;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-@media (max-width: 800px) {
-  .kontakta-mig {
-    width: 100%;
-    grid-column: 2/4;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row: 3;
-    grid-row-start: 3;
-    grid-row-end: auto;
-  }
-
-  .hogerinfo {
-    width: 100%;
-    grid-column: 2/4;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-end: auto;
-  }
-
-  .om-mig {
-    grid-column: 2/4;
-    grid-column-start: 2;
-    grid-column-end: 4;
-  }
-  .safetrip-bilder {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 600px) {
-  .safetrip-bilder {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
 }
 
 .rubrik {
@@ -423,46 +169,22 @@ p {
   text-decoration: underline;
 }
 
-.footer {
-  /* display: grid;
-  max-width: 100%;
-  height: 20vh;
-  background-color: #b7c39f; */
-  border-top: solid 3px #b7c39f;
-  /* margin: 0px 50px; */
-
-  display: grid;
-  height: 25vh;
-  padding-right: 40vw;
-  padding-left: 40vw;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-  /* border-style: solid;
-  border-width: 3px;
-  border-color: #fff;
-  border-radius: 0px; */
-  background-color: transparent;
-}
-
 .span {
   grid-column-end: 3;
   height: 30px;
 }
 
-/* PROJEKT SIDA */
+/* STARTSIDA (INDEX) */
+.menu_links {
+  width: 305px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.atag {
+  padding: 20px;
+}
 
 .projekt {
   display: grid;
@@ -611,20 +333,46 @@ nav {
   display: block;
 }
 
-.case-sida {
+/* CASE SIDOR */
+
+.hogerinfo {
+  width: 30vw;
+}
+
+.safetrip-bilder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+
+.rss-logo {
+  height: 49px;
+  width: 200px;
+  margin-top: 15px;
+}
+
+.shuu-logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.smoove-logo {
+  height: 26px;
+  width: 160px;
+  margin-top: 40px;
+}
+
+/* .case-sida {
   display: grid;
   grid-template-columns: 300px 1fr 300px;
   grid-template-rows: 70px 1fr;
-  margin-top: 50 px;
+  margin-top: 50px;
   position: relative;
-}
-
-.video {
-  /* background-image: url(img/Frame\ 19.png);
-  background-size: cover; */
-  width: 100%;
-  height: 100%;
-}
+} */
 
 .sida_case {
   display: grid;
@@ -635,18 +383,84 @@ nav {
   margin-bottom: 0px;
 }
 
-.hej {
-  margin-bottom: 100px;
-  margin-top: 100px;
-  margin-left: 300px;
-  margin-right: 300px;
+.showreel {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
-@media (max-width: 1660px) {
-  .hej {
-    margin-bottom: 80px;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+/* FOOTER */
+
+.footer {
+  border-top: solid 3px #b7c39f;
+  display: grid;
+  height: 25vh;
+  padding-right: 40vw;
+  padding-left: 40vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  background-color: transparent;
+}
+/* MEDIA Q */
+
+@media (min-width: 800px) {
+  .mobil_menu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu__links {
+    display: none;
+  }
+
+  .menu_links {
+    display: none;
+  }
+  .text {
+    font-size: 0;
+  }
+  .kontakta-mig {
+    width: 100%;
+    grid-column: 2/4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+    grid-row-start: 3;
+    grid-row-end: auto;
+  }
+
+  .hogerinfo {
+    width: 100%;
+    grid-column: 2/4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-end: auto;
+  }
+
+  .om-mig {
+    grid-column: 2/4;
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 }
 
@@ -660,13 +474,6 @@ nav {
     margin-right: 1.5vw;
     column-gap: 40px;
     row-gap: 0px;
-  }
-
-  .hej {
-    margin-bottom: 80px;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
   }
 
   .utbildning {
@@ -688,56 +495,6 @@ nav {
     grid-column-end: 3;
     height: 46px;
   }
-}
-
-@media (max-width: 1000px) {
-  .hej {
-    margin-bottom: 80px;
-    margin-top: 50px;
-    margin-left: 70px;
-    margin-right: 70px;
-  }
-}
-
-@media (max-width: 700px) {
-  .sida_ommig {
-    display: grid;
-    grid-template-columns: 16px 1fr 1fr 16px;
-    grid-template-rows: 70px 1fr;
-    margin-top: 30px;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    column-gap: 20px;
-    row-gap: 0px;
-  }
-
-  .sida_case {
-    display: grid;
-    grid-template-columns: 16px 1fr 1fr 16px;
-    grid-template-rows: 70px 1fr;
-    margin-top: 30px;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    column-gap: 20px;
-    row-gap: 20px;
-    margin-bottom: 0px;
-  }
-
-  .hej {
-    margin-bottom: 50px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  .bildhanna {
-    width: 100%;
-    margin-right: 1.5vw;
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 1300px) {
   .projekt {
     display: grid;
     grid-template-columns: 16px 1fr 1fr 24px;
@@ -792,6 +549,37 @@ nav {
   }
 }
 
+@media (max-width: 700px) {
+  .sida_ommig {
+    display: grid;
+    grid-template-columns: 16px 1fr 1fr 16px;
+    grid-template-rows: 70px 1fr;
+    margin-top: 30px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    column-gap: 20px;
+    row-gap: 0px;
+  }
+
+  .sida_case {
+    display: grid;
+    grid-template-columns: 16px 1fr 1fr 16px;
+    grid-template-rows: 70px 1fr;
+    margin-top: 30px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-bottom: 0px;
+  }
+
+  .bildhanna {
+    width: 100%;
+    margin-right: 1.5vw;
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 1200px) {
   .utbildning {
     display: grid;
@@ -801,30 +589,4 @@ nav {
   .luft {
     margin-left: 26px;
   }
-}
-
-h3 {
-  margin-bottom: 6px;
-}
-
-.shuu-logo {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 20px;
-}
-
-.smoove-logo {
-  height: 26px;
-  width: 160px;
-  margin-top: 40px;
-}
-
-.rss-logo {
-  height: 49px;
-  width: 200px;
-  margin-top: 15px;
-}
-
-.atag {
-  padding: 20px;
 }
